@@ -1,7 +1,3 @@
 # lifekicks
 # A responsive frontend project using simple tech like(HTML,CSS,BOOTSRAP,JAVASCRIPT)
-
-<p align="center">
-  <img src="C:\Users\KIIT\Pictures\Screenshots\Screenshot (74).png" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-</p>
+![Screenshot (74)](https://user-images.githubusercontent.com/92195182/169889771-f3d058cd-7be3-43d5-862e-067758adb510.png)
