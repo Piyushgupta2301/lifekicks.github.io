@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>apparel</title>
+        <link rel="stylesheet" type="text/css" href="sneakerwebsitestyle.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <style>
+            .navbar{
+                background-color: black;
+                height: 80px;
+            }
+            #myNavbar{
+                font-size: x-large;
+                color: white;
+                padding-top: 15px;
+                padding-left: 30px;
+            }
+            #navbar-navigation{
+                font-size: medium;
+            }
+            #nav-middle li{
+                padding-left:90px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <span>
+                            <img src="images/logo.jpg" width="50" height="60">
+                        </span>
+                        <span style="font-family:cursive;color:whitesmoke;font-size: 25px">
+                            LIFEKICKS
+                        </span>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse "  id="myNavbar">
+                    <ul class="nav navbar-nav" id="nav-middle">
+                        <li><a href="men.html" target="blank">MEN</a></li>
+                        <li><a href="women.html" target="blank">WOMEN</a></li>
+                        <li><a href="apparel.html" target="blank">APPAREL</a></li>
+                    </ul>
+                   <div class="nav navbar-nav navbar-right" id="navbar-navigation">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Signup" style="color:whitesmoke; background-color: black; border: none; font-size: 20px;"><span class="glyphicon glyphicon-user"> Signup</span></button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LogIn" style="color:whitesmoke; background-color: black; border: none; font-size: 20px;"><span class="glyphicon glyphicon-log-in"> LogIn</span></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br><br><br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2">
+                    <br><br><br>
+                    <p style="font-family:sans-serif;font-size: 25px">Filter by  size</p>
+                    <form >
+                        <input type="checkbox" id="size1" name="size1">
+                        <label for="size1" style="color:lightslategrey"> XL</label><br>
+                        <input type="checkbox" id="size2" name="size2">
+                        <label for="size2" style="color:lightslategrey"> L</label><br>
+                        <input type="checkbox" id="size3" name="size3">
+                        <label for="size3" style="color:lightslategrey"> M</label><br>
+                        <input type="checkbox" id="size4" name="size4">
+                        <label for="size4" style="color:lightslategrey"> SM</label><br>
+                        <input type="submit" value="submit">
+                    </form><br><br>
+                </div>
+                <div class="col-xs-10">
+
+                    <h1 style="font-family:sans-serif"> &nbsp; &nbsp; &nbsp;FOOTWEAR</h1>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel1.jpg" class="img-responsive" alt="Lights" style="width:100%">
+                                <div class="caption">
+                                    <P>1500 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel2.jpg" class="img-responsive" alt="Nature" style="width:100%">
+                                <div class="caption">
+                                    <P>1000 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel3.jpg" class="img-responsive" alt="Fjords" style="width:100%">
+                                <div class="caption">
+                                    <P>800 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel4.jpg" class="img-responsive" alt="Fjords" style="width:100%">
+                                <div class="caption">
+                                    <P>1500 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel5.jpg" class="img-responsive" alt="Fjords" style="width:100%">
+                                <div class="caption">
+                                    <P>2500 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="thumbnail">
+
+                                <img src="images/apparel6.jpg" class="img-responsive" alt="Fjords" style="width:100%">
+                                <div class="caption">
+                                    <P>1500 INR</P>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div id="shipping" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p align="left">
+                        <b>India-Wid-Shipping</b>
+                    </p>
+                    <p align="left">
+                        Avg-time: 4-6days
+                    </p>
+                </div>
+                <div class="col-xs-6">
+                    <p align="right">
+                        <b>100% Security Checkout</b>
+                    </p>
+                    <p align="right">
+                        upi/netbanking/debit card/credit card
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="bottom" class="container-fluid">
+            <br>
+            <br><br>
+
+            <div>
+                <ul style="color:white;font-family:serif;list-style-type: none ;font-size: large">
+                    <li>Refunds/cancellation</li>
+                    <li>Terms and condition</li>
+                    <li>
+                        <span class="glyphicon glyphicon-lock"> Privacy</span>
+                    </li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div><br><br><br>
+            <div>
+                <p style="color: white;" align="center">@lifekicks Pvt Ltd</p>
+            </div>
+        </div>
+        <div class="modal fade" id="Signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content center-block text-center">
+        <div class="modal-header" style="background-color: black; color:whitesmoke;">
+            <h3> Sign Up</h3>
+            
+        </div>
+      <div class="modal-body center-block text-center">
+          
+          <form>
+              <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputre-enterPassword1">Re-enter-Password</label>
+    <input type="password" class="form-control" id="exampleInputre-enterPassword1" placeholder="Re-Password">
+  </div>
+              
+              
+ </form>
+          
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color: black;">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+<div class="modal fade" id="LogIn" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content center-block text-center">
+        <div class="modal-header" style="background-color: black; color:whitesmoke;">
+            <h3>Log In</h3>
+            
+        </div>
+      <div class="modal-body center-block text-center">
+          
+          <form>
+              <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control " id="exampleInputEmail7" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword7" placeholder="Password">
+  </div>
+  <small> Forgot password</small>
+              
+              
+ </form>
+          
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color: black;">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+    </body>
+</html>
+
